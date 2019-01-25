@@ -6,7 +6,7 @@ Include "parameters.geo";
 
 ce = 0;
 
-Arguments[] = {0, bendHeight, thickness, AirfoilLc, 0, 0, 2};
+Arguments[] = {0, bendHeight, thickness, AirfoilLc, 0, 0, 1};
 Call SingleBendAirfoil;
 AirfoilLoop = Results[0];
 
